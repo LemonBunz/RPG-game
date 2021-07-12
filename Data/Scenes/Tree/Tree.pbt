@@ -20,6 +20,7 @@ Objects {
   ChildIds: 17367776599490353058
   ChildIds: 4043159866359267150
   ChildIds: 6347436195540362721
+  ChildIds: 5816999212489180797
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -32,6 +33,46 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 5816999212489180797
+  Name: "Whitebox Wall 01 - Door Basic Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10745499321299813081
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Whitebox Wall 01 - Door Basic Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1532.8999
+            Y: -709.770447
+            Z: 25.2534294
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7536868448175747048
+    }
   }
 }
 Objects {
